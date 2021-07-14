@@ -233,3 +233,76 @@ ul.contactMenuList li a i {
 
 
 /* the Hole style is COMPLETE for this screen */
+
+
+
+
+
+
+
+
+
+/* --------------
+             RESPONSIVE DESIGN 
+             ---------------------- */
+
+
+
+
+/* Smartphones (landscape) ---------------- */
+@media only screen 
+and (min-width : 321px)
+and (max-width : 767px)
+{
+    .navBar {
+        display: none;
+    }
+    header#headerPart {
+        width: 100%;
+    }
+
+    .navWrapper {
+        float: right;
+        margin-top: 33px;
+        padding-top: 20px;
+    }
+    .bannerWraper {
+        overflow: initial;
+        display: block;
+    }
+    .bannerTitle h1 {
+        font-size: 45px;
+        line-height: 60px;
+        margin: 46px 0;
+    }
+    .bannerPhoto img {
+        float: none;
+        width: 100%;
+        margin-top: 50px;
+    }
+    /* header part done */
+
+    /* albums responsive */
+    .albumWrapper {
+        display: block;
+    }
+    .singleBoxPlayer {
+        margin: 15px 0px;
+    }
+    .liveScoreBord {
+        display: block;
+    }
+    
+    .scoreSinglebox {
+        margin: 15px 0px;
+    }
+    .footballLogo {
+        width: 100%;
+    }
+    
+    .footballLogo img {
+        width: 95%;
+    }
+
+
+}
