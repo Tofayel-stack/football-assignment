@@ -306,3 +306,36 @@ and (max-width : 767px)
 
 
 }
+
+/* for ipad responsive */
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait)
+{
+
+    .navWrapper {
+        display: block;
+    }
+    
+    div#loginbtn {
+        margin: 25px 0;
+    }
+    .albumWrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .liveScoreBord {
+        grid-template-columns: repeat(2,1fr);
+    }
+    .bannerWraper {
+        overflow: initial;
+        display: block;
+    }
+    
+    .bannerPhoto img {
+        float: none;
+        margin-top: 50px;
+    }
+}
+
