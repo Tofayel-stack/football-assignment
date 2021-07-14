@@ -7,7 +7,9 @@ body{
     
 }
 *{margin:0px;padding:0px;}
-
+a{
+    text-decoration: none;
+}
 .container{
     max-width: 1550px;
     width: 85%;
@@ -145,11 +147,48 @@ section#playerAlbums {
     align-items: center;
 }
 
-footer#footerSection {
-}
+footer#footerSection {margin: 80px 0px;}
 
-.footballLogo {width: 650px;margin: 80px 0px;}
+.footballLogo {width: 650px;margin-bottom: 30px;}
 
 .footballLogo img {
     width: 100%;
+}
+
+
+/* icon design */
+ul.contactMenuList li {
+    list-style: none;
+    float: left;
+    margin: 0px 10px;
+}
+
+ul.contactMenuList li a i {
+    color: grey;
+    padding: 12px;
+    background: #dcdbdb;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+.contactMenuList li a i:hover{
+    background: #afafaf;
+    color: white;
+   
+}
+/* copyright */
+.copyRightLine h3 {
+    color: black;
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 35px;
 }
